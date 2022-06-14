@@ -12,10 +12,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/admin")
-public class MyRestController {
+public class AdminUserRestController {
     private UserService userService;
 
-    public MyRestController(UserService userService) {
+    public AdminUserRestController(UserService userService) {
         this.userService = userService;
     }
 
